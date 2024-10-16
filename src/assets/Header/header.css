@@ -1,0 +1,171 @@
+*{
+    font-family: "Jost", sans-serif;
+}
+
+header {
+    height: 180px;
+    width: 100%;
+}
+.header-top {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #edeff2;
+}
+.header-top-content {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-right{
+    width: 377px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-right ul {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center !important;
+    width: 219px;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+}
+.content-right ul li a {
+    color: #292621;
+    font-size: 14px;
+    border-right: 1px solid #edeff2;
+    padding-right: 15px;
+}
+.top-content ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 271px;
+}
+.top-content ul{
+    margin-bottom: 0 !important;
+}
+.top-content ul li a {
+    color: #292621;
+    font-size: 14px;
+}
+.content-right .icons {
+    width: 157px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons .icon{
+    color: #74706B;
+    font-size: 14px;
+}
+.header-mid{
+    height: 92px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid-content{
+    height: 92px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mid-content nav ul {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+.mid-content nav ul li a {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    color: #141517;
+    font-weight: 600;
+}
+.mid-icons{
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mid-icons .icon {
+    color: #292621;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.header-bottom {
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.header-bottom p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    position: relative;
+}
+
+.header-bottom p a{
+    color: #CEBD9C !important;
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom:3px solid #CEBD9C ;
+}
+
+.scrolled.header-mid.scrolled {
+    height: 5rem;
+    position: fixed;
+    z-index: 999;
+    background-color: #fff;
+    top: 0;
+    animation: anime 1s forwards;
+}
+
+.css-1y8627i-MuiBadge-badge{
+    background: red !important;
+}
+
+
+@keyframes anime {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transition: 1s;
+        transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .mid-content nav ul{
+        display: none;
+    }
+    .header-top-content{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .content-right{
+        width: 100%;
+    }
+    .top-content ul{
+        padding-left: 0;
+    }
+   
+}
+
+

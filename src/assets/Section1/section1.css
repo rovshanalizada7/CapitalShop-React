@@ -1,0 +1,110 @@
+.section1{
+    height: 700px;
+    width: 100%;
+}
+.section1 .carousel-caption-left {
+    position: absolute;
+    right: 43%;
+    bottom: 30%;
+    left: 15%;
+    height: 19rem;
+    width: 35rem;
+    color: #fff;
+    text-align: center;
+}
+.section1 .carousel-caption-right {
+    position: absolute;
+    right: 43%;
+    bottom: 30%;
+    left: 50%;
+    height: 19rem;
+    width: 35rem;
+    color: #fff;
+    text-align: center;
+}
+.carousel-control-next-icon{
+    height: 100px;
+    width: 50px;
+    cursor: pointer;
+    background: rgba(41, 38, 33, 0.2);
+    font-size: 20px;
+    line-height: 60px;
+}
+.section1 .carousel-caption-left span ,.section1 .carousel-caption-right span{
+    color: #FF2020;
+    font-family: "Clicker Script", cursive;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin-bottom: 1px;
+    display: block;
+}
+
+.section1 .carousel-caption-left h3,.section1 .carousel-caption-right h3{
+    font-size: 55px;
+    font-weight: 500;
+    color: #292621;
+    line-height: 1.3;
+    margin-bottom: 2px;
+}
+.section1 .carousel-caption-left p,.section1 .carousel-caption-right p {
+    color: #74706B;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 31px;
+}
+.section1 .carousel-caption-left a,.section1 .carousel-caption-right a {
+    background: #292621;
+    font-weight: 500;
+    border: 1px solid #292621;
+    text-transform: uppercase;
+    color: #fff !important;
+    display: inline-block;
+    padding: 15px 47px;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+@media (max-width: 1300px) {
+    .carousel-item img {
+    width: 100%;
+    box-sizing: border-box;
+    }
+    .section1 .carousel-caption-right{
+        bottom: 8%;
+    }
+    .section1 .carousel-caption-left{
+        bottom: 13%;
+        left: 1%;
+    }
+
+
+    .section1{
+        height: 385px;
+    }
+    .section1 .carousel-caption-left h3, .section1 .carousel-caption-right h3{
+        font-size: 35px;
+ 
+    }
+    .section1 .carousel-caption-left span, .section1 .carousel-caption-right span{
+        font-size: 35px;  
+    }
+    .section1 .carousel-caption-left p, .section1 .carousel-caption-right p{
+        font-size: 13px;
+    }
+    .section1 .carousel-caption-left a, .section1 .carousel-caption-right a{
+        padding: 7px 35px;
+    }
+    .section1 .carousel-caption-right,.section1 .carousel-caption-left{
+        height: 13rem;
+        width: 20rem;
+    }
+    .section1 .carousel-caption-right{
+        left: 38%;
+        width: 367px;
+    }
+    .carousel-control-next{
+        right: -352px; 
+    }
+   
+  }

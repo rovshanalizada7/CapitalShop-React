@@ -1,0 +1,30 @@
+
+.css-149tc0y-MuiCardHeader-root {
+    height: 120px;
+}
+.css-16xl4zq-MuiTypography-root{
+    overflow: hidden;
+}
+.css-1wle3ir-MuiTypography-root{
+    height: 139px;
+    width: 315px;
+    overflow: hidden;
+}
+.css-16xl4zq-MuiTypography-root{
+    font-size: 1rem !important;
+}
+.css-149tc0y-MuiCardHeader-root{
+    align-items: start !important;
+}
+.css-1ro85z9-MuiTypography-root{
+    color: orangered !important;
+}
+.css-1kuwa16-MuiCardMedia-root{
+    object-fit: contain !important ;
+}
+.heart-icon{
+    color: red !important;
+}
+.basket-icon{
+color: green !important;
+}
